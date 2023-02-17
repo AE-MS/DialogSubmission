@@ -1,0 +1,39 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "teamsAppTenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "subscriptionId": "e14ca9d0-b9a4-48dc-9ec1-3516c2eb1d29",
+        "subscriptionName": "Teo",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "DialogSubmission-dev-rg",
+        "location": "West US 2",
+        "resourceNameSuffix": "732b72"
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "teamsAppId": "72c19c7f-af54-47c2-8e06-a700e0d67ecd"
+    },
+    "fx-resource-frontend-hosting": {
+        "indexPath": "/index.html#",
+        "domain": "dialogsubma18a44tab.z5.web.core.windows.net",
+        "endpoint": "https://dialogsubma18a44tab.z5.web.core.windows.net",
+        "storageResourceId": "/subscriptions/e14ca9d0-b9a4-48dc-9ec1-3516c2eb1d29/resourceGroups/DialogSubmission-dev-rg/providers/Microsoft.Storage/storageAccounts/dialogsubma18a44tab"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "4230dba4-4674-4105-8c84-626ff8fe3f58",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "d4d694d9-8b95-4a75-91a5-90e9e54e4770",
+        "oauth2PermissionScopeId": "9f497fe5-802b-4006-8fc0-fa896ffd1741",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "applicationIdUris": "api://dialogsubma18a44tab.z5.web.core.windows.net/4230dba4-4674-4105-8c84-626ff8fe3f58",
+        "frontendEndpoint": "https://dialogsubma18a44tab.z5.web.core.windows.net"
+    },
+    "fx-resource-identity": {
+        "identityName": "dialogsubma18a44",
+        "identityResourceId": "/subscriptions/e14ca9d0-b9a4-48dc-9ec1-3516c2eb1d29/resourceGroups/DialogSubmission-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/dialogsubma18a44",
+        "identityClientId": "20b18bf3-15f2-4bb9-bacb-8582713b2f1e"
+    }
+}
