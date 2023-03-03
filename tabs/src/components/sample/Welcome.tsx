@@ -19,7 +19,6 @@ function openUrlDialog() {
     },
     (result: dialog.ISdkResponse) => {
       const dialogResultElement = document.getElementById("submissionAcknowledgement")!;
-      // document.getElementById("submissionAcknowledgement")!.style.display = "block";
       dialogResultElement.innerText = `Url Dialog submission occurred, result = ${result.result} err = ${result.err}`;
     }
   );
